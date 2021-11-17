@@ -27,24 +27,39 @@ Na aula 03 foi explanado o que é e como criar métodos (comportamento da classe
 1. [Python3 Parte 1: Inrodução à nova versão da linguagem](https://cursos.alura.com.br/user/samuel-apls/course/python-3-introducao-a-nova-versao-da-linguagem/formalCertificate)
 2. [Python3 Parte 2: Avançando na linguagem](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-na-linguagem/formalCertificate)
 3. [Python3: Introdução a Orientação a objetos (aula 03)](https://github.com/samuel-apls/alura-formacao-python/commit/f8236f818e96692bc2b48b93e2c37c8573b93b5a#diff-db236ecce453bc7f47859772cf2f6f1899d0c97e3231311db782ac0aecf47a2c)
+### Dia 1: 16 de novembro de 2021
+
+**Progresso do dia:** 
+
+Estudei sobre encapsulamento, prorpiedades dos atributos da classe e coesão de código. Pratiquei no arquivo da aula 04 do curso [Python3 Introdução a Orientação a Objetos](https://cursos.alura.com.br/course/python-3-intro-orientacao-objetos).
+
+**Aprendizados:** 
+
+Na aula 04 foi demonstrado na prátrica o conceito de encapsulamento (pincípio de design de código, pilar da Orientação a Objetos). Foi possível observar as vantagens do uso, como por exemplo, fácil manutenção e reutilização de código, em consequência do baixo acoplamento de código. Além disso, foi demonstrada a importância da coesão no código, ou seja, os métodos de responsabilidade da Classe devem ser divididos em classes de forma que contribuam também para os benefícios do encapsulamento. POr fim, fopi explando como restringir a visibilidade dos atributos. No entanto, em Python, é visibilidade dos atributos é uma convenção, onde cabe ao desenvolvedor adotar ou não as melhores práticas (a linguagem não irá impedir totalmente de um atributo privado ser acessado. Por exemplo, pode ser acessaod da seguinte maneira: 'self.Classe.atributo').
+
+**Link do trabalho:** 
+1. [Python3: Introdução a Orientação a objetos (aula 04)](https://github.com/samuel-apls/alura-formacao-python/commit/2e8fde1f52746dbbcae666fb1d70489556ecac3e)
 
 <!---
-### Dia 1: 30 de fevereiro, 2016 (Exemplo 2)
-##### (me delete ou transforme em comentário)
+### Dia 2: 17 de novembro de 2021
 
-**Progresso do dia:** Consertei CSS, trabalhei na funcionalidade canvas para o app.
+**Progresso do dia:** 
 
-**Aprendizados:** Eu realmente apanhei do CSS, mas sinto que estou progredindo e melhorando a cada dia. Canvas ainda é novo para mim, mas eu consegui compreender suas funcionalidades básicas..
+Estudei sobre métodos de leitura de atributos (getters), método de alteração de atributos (setters) e a como aplicar esses conceitos de manipulação de atributos utilizando Propriedades. Pratiquei no arquivo da aula 04 do curso [Python3 Introdução a Orientação a Objetos](https://cursos.alura.com.br/course/python-3-intro-orientacao-objetos).
 
-**Link do trabalho:** [App de calculadora](http://www.example.com)
+**Aprendizados:** 
+Na aula 05 foi demonstrado o uso de getter e setter. Tal como na linguagem Java, é uma boa prática como estebeler padrão de design de código de acordo com a Orientação a Objeto. Foi aprosentado o uso de Propriedade, que é uma implmentação de método que se referencia diretamente ao atributo da Classe, que deve estar na condição privada, (cuja assinatura do método corresponde à mesma nomenclatura do atributo). Implementação:
 
-### Day 2: 1 de março, 2016 (Exemplo 2)
+@property
+def nome_do_atributo(self):
+    return codigo
 
-**Progresso do dia:** Eu avancei em alguns exercícios do FreeCodeCamp.
+@nome_do_atributo.setter
+def nome_do_atributo(self):
+    return codigo
 
-**Aprendizados:** Comecei a programar recentemente e me dá um sentimento muito bom quando consigo resolver um algoritmo que me desafiou durante horas.
+Isso faz com que o método seja chamado sem necessáriamente apresentar os parênteses, característicos de método. Por exemplo: 'self.atributo' para @property e 'self.atributo = valor' para @setter
 
-**Link(s) do(s) trabalho(s)**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link do trabalho:** 
+1. [Python3: Introdução a Orientação a objetos (aula 05)](https://github.com/samuel-apls/alura-formacao-python/commit/5c1c4d56ad552cdf43fea2ce12bd952dd7e9252d)
 -->
