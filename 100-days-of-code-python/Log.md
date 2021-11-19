@@ -98,3 +98,26 @@ def nome_do_metodo():
 
 **Link do trabalho:** 
 1. [Python3: Introdução a Orientação a objetos (aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/be49d77e949c1d501f00130d52da03a38f2a6f00)
+
+### Dia 4: 19 de novembro de 2021
+
+**Progresso do dia:** 
+
+Estudei sobre classes, atributos e métodos, revisando os principais conceitos para avançar na Orientação a Objetos. Pratiquei no arquivo da aula 01 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
+
+
+**Aprendizados:** 
+
+Na aula 01 foi revisado o conceito de encapsulamento, demonstrando o uso de atributos (privados ou não) e métodos (property como getter; e setter).
+
+Adicionamelmente foi apresentando como um atributo pode estar ligado à instância ou à classe e como pode ser acessado caso seja necessário declarar um atributo a ser compartilhado entre várias classes. De forma versátil, a linguagem permite que atributos não declarados na classe por meio do método construtor __init__ possam ser criados após o objeto instanciado.
+
+~~~python
+>>> self.nome_atributo #atributo ligado à instância
+
+>>> __class__.nome_atributo #atributo ligado à classe
+~~~
+
+
+**Link do trabalho:** 
+1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/33f4bfae8a6aef72fe936d24011a2a7262fe5287)
