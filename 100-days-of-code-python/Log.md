@@ -121,3 +121,48 @@ Adicionamelmente foi apresentando como um atributo pode estar ligado à instânc
 
 **Link do trabalho:** 
 1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/33f4bfae8a6aef72fe936d24011a2a7262fe5287)
+
+### Dia 5: 20 de novembro de 2021
+
+**Progresso do dia:** 
+
+Estudei sobre encapsulamento e herança por meio da aula 02 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
+
+
+**Aprendizados:** 
+
+Aprendi a...
+
+Criar classe genérica (generalização) de modo que seja possível herdar os atributos e métodos da superclasse (herança);
+~~~python
+class Nome_da_Classe(Superclasse)
+~~~
+
+Utilizar o construtor, reutilizando o construtor da superclasse, assim, seus atributos e métodos passarão a ficar acessíveis para a classe-filha, sem a necessidade de reescrever código;
+~~~python
+super().__init__(parametro1, parametro2, etc)
+~~~
+
+Criar métodos da classe (especialização): método da classe e método estático.
+~~~python
+#Método de classe
+@classmethod
+def funcao(cls):
+    return cls.atributo
+
+#cls é convencional assim como self
+#Método de classe que pode ser utilizado por todoas as classes sendo permitido utilizar os atributos da classe ou da instância
+~~~
+
+~~~python
+#Método estático
+@staticmethod
+def funcao():
+    return codigo
+
+#Método de classe que pode ser utilizado por todoas as classes, porém não sendo permitido utilizar os atributos da classe ou da instância. Nesse caso, não é necessário passar nenhum parâmetro.
+~~~
+
+
+**Link do trabalho:** 
+1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/56cc2474fa8e2441a934dc1f034c18685a26a01c)
