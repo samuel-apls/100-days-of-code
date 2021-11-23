@@ -166,3 +166,36 @@ def funcao():
 
 **Link do trabalho:** 
 1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/56cc2474fa8e2441a934dc1f034c18685a26a01c)
+
+### Dia 6: 22 de novembro de 2021
+
+**Progresso do dia:** 
+Estudei sobre polimorfismo, relacionamento "é um" e formas de apresentação textual e de representação do objeto. Capítulo 03 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
+
+**Aprendizados:** 
+
+Aprendi a...
+
+Utilizar o polimorfismo, criando a sobrescrita de método, onde o método da classe filha, que é uma especificação da classe principal ("é um"), tem a mesma assinatura do método na classe principal. Na chamada do método, prevalece a execução do método na classe filha.
+
+Apresentar objetos como string, de forma que é de responsabilidade da classe em imprimir seus atributos, encapsulando, assim, em um método que representa os objetos como string
+
+~~~python
+def __str__(self):
+    return f'Atributo1: {self.atributo1} Atributo2: {self.atributo2}'
+
+str(variavel1)
+
+#gera saída para usuário
+~~~
+~~~python
+def __repr__(self):
+    return variavel
+
+repr(variavel1)
+
+#gera saída para desenvolverdor (utilizado para debug)
+~~~
+
+**Link do trabalho:**
+1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/83972f3900be4453397b172e7eff74d092f4baca)
