@@ -10,7 +10,7 @@ Revisei os cursos concluídos da formação (Python3 - Parte 1 e 2) e dei contin
 
 Python 3 parte 1
 
-Nesse curso revi os conceitos iniciais da programação: instalar e rodar um projeto por meio de uma IDE, utilizar a função print, trabalhar com variáveis e tipo de dados. Avançando nos principais temas da programação: comparação de tipos e diferenças da linguagem nas versões 2 e 3. Testando valores com as condicionais. Utilização de laço de repetição e iteradores. Importação de módulos (bibliotecas) e funções built-in (biblioteca padrão). Analisando diferenças entre interpretadores e compiladores.
+Nesse curso revi os conceitos iniciais da programação: instalar e rodar um projeto por meio de uma IDE, utilizar a função ```print```, trabalhar com variáveis e tipo de dados. Avançando nos principais temas da programação: comparação de tipos e diferenças da linguagem nas versões 2 e 3. Testando valores com as condicionais. Utilização de laço de repetição e iteradores. Importação de módulos (bibliotecas) e funções ```built-in``` (biblioteca padrão). Analisando diferenças entre interpretadores e compiladores.
 
 
 Python 3 parte 2
@@ -21,9 +21,10 @@ Nesse curso aperfeiçoei o conhecimento fundamental na linguagem Python. Trabalh
 Python 3 Introdução a OO
 
 Na aula 01 foi revisado os temas Dicionários, Funções e Encapsulamento. Foi explanada as motivações para a abordagem OO e a diferença entre o paradigma procedural.
-Na aula 02 foram apresentados: classes, objetos, função construtora, endereços e referência de objetos, atributos de classe e como acessá-los por meio dos objetos e da referência "self"
 
-Na aula 03 foi explanado o que é e como criar métodos (comportamento da classe), como chamar métodos por meio dos objetos e da referência "self". Foi apresentado o conceito de Garbage Colector do Python e o tipo None (valor nulo para variáveis)
+Na aula 02 foram apresentados: classes, objetos, função construtora, endereços e referência de objetos, atributos de classe e como acessá-los por meio dos objetos e da referência ```self```.
+
+Na aula 03 foi explanado o que é e como criar métodos (comportamento da classe), como chamar métodos por meio dos objetos e da referência ```self```. Foi apresentado o conceito de Garbage Colector do Python e o tipo ```None``` (valor nulo para variáveis)
 
 **Link do trabalho:** 
 
@@ -40,7 +41,7 @@ Estudei sobre encapsulamento, prorpiedades dos atributos da classe e coesão de 
 
 **Aprendizados:** 
 
-Na aula 04 foi demonstrado na prátrica o conceito de encapsulamento (pincípio de design de código, pilar da Orientação a Objetos). Foi possível observar as vantagens do uso, como por exemplo, fácil manutenção e reutilização de código, em consequência do baixo acoplamento de código. Além disso, foi demonstrada a importância da coesão no código, ou seja, os métodos de responsabilidade da Classe devem ser divididos em classes de forma que contribuam também para os benefícios do encapsulamento. POr fim, fopi explando como restringir a visibilidade dos atributos. No entanto, em Python, é visibilidade dos atributos é uma convenção, onde cabe ao desenvolvedor adotar ou não as melhores práticas (a linguagem não irá impedir totalmente de um atributo privado ser acessado. Por exemplo, pode ser acessaod da seguinte maneira: 'self.Classe.atributo').
+Na aula 04 foi demonstrado na prátrica o conceito de encapsulamento (pincípio de design de código, pilar da Orientação a Objetos). Foi possível observar as vantagens do uso, como por exemplo, fácil manutenção e reutilização de código, em consequência do baixo acoplamento de código. Além disso, foi demonstrada a importância da coesão no código, ou seja, os métodos de responsabilidade da Classe devem ser divididos em classes de forma que contribuam também para os benefícios do encapsulamento. Por fim, foi explando como restringir a visibilidade dos atributos. No entanto, em Python, a visibilidade dos atributos é uma convenção, onde cabe ao desenvolvedor adotar ou não as melhores práticas (a linguagem não irá impedir totalmente de um atributo privado ser acessado. Por exemplo, pode ser acessado da seguinte maneira: ```self.Classe.atributo```).
 
 **Link do trabalho:** 
 
@@ -51,11 +52,11 @@ Na aula 04 foi demonstrado na prátrica o conceito de encapsulamento (pincípio 
 
 **Progresso do dia:** 
 
-Estudei sobre métodos de leitura de atributos (getters), método de alteração de atributos (setters) e a como aplicar esses conceitos de manipulação de atributos utilizando Propriedades. Pratiquei no arquivo da aula 05 do curso [Python3 Introdução a Orientação a Objetos](https://cursos.alura.com.br/course/python-3-intro-orientacao-objetos).
+Estudei sobre métodos de leitura de atributos (```getters```), método de alteração de atributos (```setters```) e a como aplicar esses conceitos de manipulação de atributos utilizando ```@property```. Pratiquei no arquivo da aula 05 do curso [Python3 Introdução a Orientação a Objetos](https://cursos.alura.com.br/course/python-3-intro-orientacao-objetos).
 
 **Aprendizados:** 
 
-Na aula 05 foi demonstrado o uso de getter e setter. Tal como na linguagem Java, é uma boa prática como estebeler padrão de design de código de acordo com a Orientação a Objeto. Foi aprosentado o uso de Propriedade, que é uma implmentação de método que se referencia diretamente ao atributo da Classe, que deve estar na condição privada, (cuja assinatura do método corresponde à mesma nomenclatura do atributo). Implementação:
+Na aula 05 foi demonstrado o uso de ```getter``` e ```setter```. Tal como na linguagem Java, é uma boa prática como estebeler padrão de design de código de acordo com a Orientação a Objeto. Foi aprosentado o uso de ```@property```, que é uma implmentação de método que se referencia diretamente ao atributo da Classe, que deve estar na condição privada, (cuja assinatura do método corresponde à mesma nomenclatura do atributo). Implementação:
 
 ~~~python
 @property
@@ -67,7 +68,7 @@ def nome_do_atributo(self):
     return codigo
 ~~~
 
-Isso faz com que o método seja chamado sem necessáriamente apresentar os parênteses, característicos de método. Por exemplo: 'self.atributo' para @property e 'self.atributo = valor' para @setter
+Isso faz com que o método seja chamado sem necessáriamente apresentar os parênteses, característicos de método. Por exemplo: ```self.atributo``` para ```@property``` e ```self.atributo = valor``` para ```@nome_atributo.setter```
 
 **Link do trabalho:** 
 
@@ -108,9 +109,9 @@ Estudei sobre classes, atributos e métodos, revisando os principais conceitos p
 
 **Aprendizados:** 
 
-Na aula 01 foi revisado o conceito de encapsulamento, demonstrando o uso de atributos (privados ou não) e métodos (property como getter; e setter).
+Na aula 01 foi revisado o conceito de encapsulamento, demonstrando o uso de atributos (privados ou não) e métodos (```@property``` como ```getter```; e ```setter```).
 
-Adicionamelmente foi apresentando como um atributo pode estar ligado à instância ou à classe e como pode ser acessado caso seja necessário declarar um atributo a ser compartilhado entre várias classes. De forma versátil, a linguagem permite que atributos não declarados na classe por meio do método construtor __init__ possam ser criados após o objeto instanciado.
+Adicionamelmente foi apresentando como um atributo pode estar ligado à instância ou à classe e como pode ser acessado caso seja necessário declarar um atributo a ser compartilhado entre várias classes. De forma versátil, a linguagem permite que atributos não declarados na classe por meio do método construtor ```__init__``` possam ser criados após o objeto instanciado.
 
 ~~~python
 >>> self.nome_atributo #atributo ligado à instância
@@ -127,7 +128,6 @@ Adicionamelmente foi apresentando como um atributo pode estar ligado à instânc
 **Progresso do dia:** 
 
 Estudei sobre encapsulamento e herança por meio da aula 02 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
-
 
 **Aprendizados:** 
 
@@ -163,7 +163,6 @@ def funcao():
 #Método de classe que pode ser utilizado por todoas as classes, porém não sendo permitido utilizar os atributos da classe ou da instância. Nesse caso, não é necessário passar nenhum parâmetro.
 ~~~
 
-
 **Link do trabalho:** 
 1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/56cc2474fa8e2441a934dc1f034c18685a26a01c)
 
@@ -178,7 +177,7 @@ Aprendi a...
 
 Utilizar o polimorfismo, criando a sobrescrita de método, onde o método da classe filha, que é uma especificação da classe principal ("é um"), tem a mesma assinatura do método na classe principal. Na chamada do método, prevalece a execução do método na classe filha.
 
-Apresentar objetos como string, de forma que é de responsabilidade da classe em imprimir seus atributos, encapsulando, assim, em um método que representa os objetos como string
+Apresentar objetos como ```string```, de forma que é de responsabilidade da classe em imprimir seus atributos, encapsulando, assim, em um método que representa os objetos como ```string```.
 
 ~~~python
 def __str__(self):
@@ -199,3 +198,16 @@ repr(variavel1)
 
 **Link do trabalho:**
 1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/83972f3900be4453397b172e7eff74d092f4baca)
+
+
+### Dia 7: 23 de novembro de 2021
+
+**Progresso do dia:** 
+Herança de classe do tipo ```built-in```, suas vantagens e desvantagens. Capítulo 04 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
+
+**Aprendizados:** 
+
+Utilizar a herança do tipo ```buit-in``` (pacote nativo), sendo a vantagem principal, o polimorfismo. A classe herdade é a ```List```, cujo objetivo é iterar sobre o objeto ```iterable```. A desvantegem, consiste em herdar uma classe desconhecida, podendo gerar complexidade e acoplamento ao código.
+
+**Link do trabalho:**
+1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
