@@ -211,3 +211,37 @@ Utilizar a herança do tipo ```buit-in``` (pacote nativo), sendo a vantagem prin
 
 **Link do trabalho:**
 1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
+
+### Dia 8: 24 de novembro de 2021
+
+**Progresso do dia:** 
+Duck typing, Python data model, dunder methods e uso do classe absrata com ABC (abstract base class). Capítulo 05 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
+
+**Aprendizados:** 
+Aprender a utilizar o polimorfismo sem necessariamente herdar uma classe, mas utilizando de métodos mágicos (magic methods), que são definidos no Python data model. Por exemplo, têm caracteristicas de dunder (double enderscore):
+
+~~~Python
+def __getitem__(self, atributo2):
+    return self._atributo1[atributo2]
+~~~
+
+Duck typing é uma forma comum em Python para se referir aos magics methods.
+
+Em caso de necessidade de quem uma classe implemente métodos obrigatoriamente, basta importar o múdulo ABC, Por exemplo:
+
+~~~Python
+from collections.abc import MutableSequence
+
+class Classe(MutableSequence):
+    pass
+~~~
+
+Como Python é uma linguagemdinâmica, a obrigaroriedade de implementação vai acontecer somente em tempo de instanciação, onde o compilador irá informar quais métodos estão faltanto ser implementados:
+
+~~~Python
+objeto = Classe()
+print(objeto)
+~~~
+
+**Link do trabalho:**
+1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
