@@ -245,3 +245,26 @@ print(objeto)
 
 **Link do trabalho:**
 1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
+
+### Dia 9: 25 de novembro de 2021
+
+**Progresso do dia:** 
+
+Herança múltipla, ordem de chamada de métodos e ```Mixins```. Capítulo 06 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
+
+**Aprendizados:** 
+
+Herdar múltiplas classes (herança múltipla) e entender a ordem de precedência que é conforme declaração (esquerda > direita) *, sendo separada por vírgula:
+
+~~~Python
+class Classe(Superclasse1, Superclasse2):
+    pass
+~~~
+
+**Há um algoritmo no Python (```MRO - Method Resolution Order```) que define qual a melhor classe mãe a ser percorrida na busca do método a ser executado: boa cabeça (```good head```). Dependendo, pode haver uma hieráquia a mais que definirá a melhor classe para o método ser executado.*
+
+Usar classes que podem ser herdadas mas que não precisam ser instanciadas são conhecidas como ```Mixins```. São usados desta forma pois o seu comportamento normalmente não precisa ser de responsabilidade da classe filha, pois esta é mais específica.
+
+**Link do trabalho:**
+
+1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/97d19fb5ac1cd1373b28019fbe32a4abd45dd117)
