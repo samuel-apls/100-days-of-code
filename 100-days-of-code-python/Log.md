@@ -8,29 +8,29 @@ Revisei os cursos concluídos da formação (Python3 - Parte 1 e 2) e dei contin
 
 **Aprendizados:** 
 
-Python 3 parte 1
+Python3 parte 1
 
 Nesse curso revi os conceitos iniciais da programação: instalar e rodar um projeto por meio de uma IDE, utilizar a função ```print```, trabalhar com variáveis e tipo de dados. Avançando nos principais temas da programação: comparação de tipos e diferenças da linguagem nas versões 2 e 3. Testando valores com as condicionais. Utilização de laço de repetição e iteradores. Importação de módulos (bibliotecas) e funções ```built-in``` (biblioteca padrão). Analisando diferenças entre interpretadores e compiladores.
 
 
-Python 3 parte 2
+Python3 parte 2
 
-Nesse curso aperfeiçoei o conhecimento fundamental na linguagem Python. Trabalhei na prática a manipulação dos dados, comparando e iterando em laços. Aprendi nova estrutura de dados: Coleções (Listas, Tuplas e um pouco de Set (lista que não permite elementos duplicados) e Dicionários). Aprendi também a realizar leitura e escrita de arquivo.
+Nesse curso aperfeiçoei o conhecimento fundamental na linguagem Python. Trabalhei na prática a manipulação dos dados, comparando e iterando em laços. Aprendi nova estrutura de dados: Coleções (Listas, Tuplas e um pouco de Set (lista que não permite elementos duplicados) e Dicionários). Aprendi também a realizar leitura e escrita em arquivo.
 
 
-Python 3 Introdução a OO
+Python3 Introdução a OO
 
 Na aula 01 foi revisado os temas Dicionários, Funções e Encapsulamento. Foi explanada as motivações para a abordagem OO e a diferença entre o paradigma procedural.
 
-Na aula 02 foram apresentados: classes, objetos, função construtora, endereços e referência de objetos, atributos de classe e como acessá-los por meio dos objetos e da referência ```self```.
+Na aula 02 foram apresentados: classes, objetos, função construtora, endereços e referência de objetos, atributos de classe e como acessá-los por meio dos objetos e pela referência ```self```.
 
-Na aula 03 foi explanado o que é e como criar métodos (comportamento da classe), como chamar métodos por meio dos objetos e da referência ```self```. Foi apresentado o conceito de Garbage Colector do Python e o tipo ```None``` (valor nulo para variáveis)
+Na aula 03 foi explanado o que é e como criar métodos (comportamento da classe), como chamar métodos por meio dos objetos e pela referência ```self```. Foi apresentado o conceito de Garbage Colector do Python e o tipo ```None``` (valor nulo para variáveis).
 
 **Link do trabalho:** 
 
-1. [Python3 Parte 1: Inrodução à nova versão da linguagem](https://cursos.alura.com.br/user/samuel-apls/course/python-3-introducao-a-nova-versao-da-linguagem/formalCertificate)
-2. [Python3 Parte 2: Avançando na linguagem](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-na-linguagem/formalCertificate)
-3. [Python3: Introdução a Orientação a objetos (aula 03)](https://github.com/samuel-apls/alura-formacao-python/commit/f8236f818e96692bc2b48b93e2c37c8573b93b5a#diff-db236ecce453bc7f47859772cf2f6f1899d0c97e3231311db782ac0aecf47a2c)
+1. [Python3 Parte 1: Inrodução à nova versão da linguagem - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-introducao-a-nova-versao-da-linguagem/formalCertificate)
+2. [Python3 Parte 2: Avançando na linguagem - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-na-linguagem/formalCertificate)
+3. [Python3: Introdução a Orientação a objetos - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/f8236f818e96692bc2b48b93e2c37c8573b93b5a#diff-db236ecce453bc7f47859772cf2f6f1899d0c97e3231311db782ac0aecf47a2c)
 
 
 ### Dia 1: 16 de novembro de 2021
@@ -45,7 +45,7 @@ Na aula 04 foi demonstrado na prátrica o conceito de encapsulamento (pincípio 
 
 **Link do trabalho:** 
 
-1. [Python3: Introdução a Orientação a objetos (aula 04)](https://github.com/samuel-apls/alura-formacao-python/commit/2e8fde1f52746dbbcae666fb1d70489556ecac3e)
+1. [Python3: Introdução a Orientação a objetos - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/2e8fde1f52746dbbcae666fb1d70489556ecac3e)
 
 
 ### Dia 2: 17 de novembro de 2021
@@ -56,7 +56,7 @@ Estudei sobre métodos de leitura de atributos (```getters```), método de alter
 
 **Aprendizados:** 
 
-Na aula 05 foi demonstrado o uso de ```getter``` e ```setter```. Tal como na linguagem Java, é uma boa prática como estebeler padrão de design de código de acordo com a Orientação a Objeto. Foi aprosentado o uso de ```@property```, que é uma implmentação de método que se referencia diretamente ao atributo da Classe, que deve estar na condição privada, (cuja assinatura do método corresponde à mesma nomenclatura do atributo). Implementação:
+Na aula 05 foi demonstrado o uso de ```getter``` e ```setter```. Tal como na linguagem Java, é uma boa prática como estebeler padrão de design de código de acordo com a Orientação a Objeto. Foi aprosentado o uso de ```@property```, que é uma implmentação de método que se referencia diretamente ao atributo da Classe, que deve estar na condição privada, (cuja assinatura do método corresponde à mesma nomenclatura do atributo):
 
 ~~~python
 @property
@@ -72,7 +72,7 @@ Isso faz com que o método seja chamado sem necessáriamente apresentar os parê
 
 **Link do trabalho:** 
 
-1. [Python3: Introdução a Orientação a objetos (aula 05)](https://github.com/samuel-apls/alura-formacao-python/commit/5c1c4d56ad552cdf43fea2ce12bd952dd7e9252d)
+1. [Python3: Introdução a Orientação a objetos - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/5c1c4d56ad552cdf43fea2ce12bd952dd7e9252d)
 
 
 ### Dia 3: 18 de novembro de 2021
@@ -98,7 +98,8 @@ def nome_do_metodo():
 
 
 **Link do trabalho:** 
-1. [Python3: Introdução a Orientação a objetos (aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/be49d77e949c1d501f00130d52da03a38f2a6f00)
+1. [Python3: Introdução a Orientação a objetos - Aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/be49d77e949c1d501f00130d52da03a38f2a6f00)
+2. [Python3: Introdução a Orientação a objetos - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-intro-orientacao-objetos/formalCertificate)
 
 ### Dia 4: 19 de novembro de 2021
 
@@ -121,7 +122,7 @@ Adicionamelmente foi apresentando como um atributo pode estar ligado à instânc
 
 
 **Link do trabalho:** 
-1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/33f4bfae8a6aef72fe936d24011a2a7262fe5287)
+1. [Python 3: Avançando na orientação a objetos - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/33f4bfae8a6aef72fe936d24011a2a7262fe5287)
 
 ### Dia 5: 20 de novembro de 2021
 
@@ -131,19 +132,20 @@ Estudei sobre encapsulamento e herança por meio da aula 02 do curso [Python 3: 
 
 **Aprendizados:** 
 
-Aprendi a...
-
 Criar classe genérica (generalização) de modo que seja possível herdar os atributos e métodos da superclasse (herança);
+
 ~~~python
 class Nome_da_Classe(Superclasse)
 ~~~
 
 Utilizar o construtor, reutilizando o construtor da superclasse, assim, seus atributos e métodos passarão a ficar acessíveis para a classe-filha, sem a necessidade de reescrever código;
+
 ~~~python
 super().__init__(parametro1, parametro2, etc)
 ~~~
 
 Criar métodos da classe (especialização): método da classe e método estático.
+
 ~~~python
 #Método de classe
 @classmethod
@@ -164,7 +166,7 @@ def funcao():
 ~~~
 
 **Link do trabalho:** 
-1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/56cc2474fa8e2441a934dc1f034c18685a26a01c)
+1. [Python 3: Avançando na orientação a objetos - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/56cc2474fa8e2441a934dc1f034c18685a26a01c)
 
 ### Dia 6: 22 de novembro de 2021
 
@@ -172,8 +174,6 @@ def funcao():
 Estudei sobre polimorfismo, relacionamento "é um" e formas de apresentação textual e de representação do objeto. Capítulo 03 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
 
 **Aprendizados:** 
-
-Aprendi a...
 
 Utilizar o polimorfismo, criando a sobrescrita de método, onde o método da classe filha, que é uma especificação da classe principal ("é um"), tem a mesma assinatura do método na classe principal. Na chamada do método, prevalece a execução do método na classe filha.
 
@@ -184,20 +184,19 @@ def __str__(self):
     return f'Atributo1: {self.atributo1} Atributo2: {self.atributo2}'
 
 str(variavel1)
-
 #gera saída para usuário
 ~~~
+
 ~~~python
 def __repr__(self):
     return variavel
 
 repr(variavel1)
-
 #gera saída para desenvolverdor (utilizado para debug)
 ~~~
 
 **Link do trabalho:**
-1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/83972f3900be4453397b172e7eff74d092f4baca)
+1. [Python 3: Avançando na orientação a objetos - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/83972f3900be4453397b172e7eff74d092f4baca)
 
 
 ### Dia 7: 23 de novembro de 2021
@@ -207,10 +206,10 @@ Herança de classe do tipo ```built-in```, suas vantagens e desvantagens. Capít
 
 **Aprendizados:** 
 
-Utilizar a herança do tipo ```buit-in``` (pacote nativo), sendo a vantagem principal, o polimorfismo. A classe herdade é a ```List```, cujo objetivo é iterar sobre o objeto ```iterable```. A desvantegem, consiste em herdar uma classe desconhecida, podendo gerar complexidade e acoplamento ao código.
+Utilizar a herança do tipo ```buit-in``` (pacote nativo), sendo a vantagem principal, o polimorfismo. A classe herdada é a ```List```, cujo objetivo é iterar sobre o objeto ```iterable```. A desvantagem, consiste em herdar uma classe desconhecida, podendo gerar complexidade e acoplamento ao código.
 
 **Link do trabalho:**
-1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
+1. [Python 3: Avançando na orientação a objetos - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
 
 ### Dia 8: 24 de novembro de 2021
 
@@ -218,7 +217,7 @@ Utilizar a herança do tipo ```buit-in``` (pacote nativo), sendo a vantagem prin
 Duck typing, Python data model, dunder methods e uso do classe absrata com ABC (abstract base class). Capítulo 05 do curso [Python 3: Avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos).
 
 **Aprendizados:** 
-Aprender a utilizar o polimorfismo sem necessariamente herdar uma classe, mas utilizando de métodos mágicos (magic methods), que são definidos no Python data model. Por exemplo, têm caracteristicas de dunder (double enderscore):
+Utilizar o polimorfismo sem necessariamente herdar uma classe, mas utilizando de métodos mágicos (magic methods), que são definidos no Python Data Model. Por exemplo, têm caracteristicas de ```dunder``` (double enderscore):
 
 ~~~Python
 def __getitem__(self, atributo2):
@@ -227,7 +226,7 @@ def __getitem__(self, atributo2):
 
 Duck typing é uma forma comum em Python para se referir aos magics methods.
 
-Em caso de necessidade de quem uma classe implemente métodos obrigatoriamente, basta importar o múdulo ABC, Por exemplo:
+Em caso de necessidade que uma classe implemente métodos obrigatoriamente, basta importar o múdulo ABC, Por exemplo:
 
 ~~~Python
 from collections.abc import MutableSequence
@@ -236,7 +235,7 @@ class Classe(MutableSequence):
     pass
 ~~~
 
-Como Python é uma linguagemdinâmica, a obrigaroriedade de implementação vai acontecer somente em tempo de instanciação, onde o compilador irá informar quais métodos estão faltanto ser implementados:
+Como Python é uma linguagem dinâmica, a obrigaroriedade de implementação vai acontecer somente em tempo de instanciação, onde o compilador irá informar quais métodos estão faltanto ser implementados:
 
 ~~~Python
 objeto = Classe()
@@ -244,7 +243,7 @@ print(objeto)
 ~~~
 
 **Link do trabalho:**
-1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
+1. [Python 3: Avançando na orientação a objetos - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
 
 ### Dia 9: 25 de novembro de 2021
 
@@ -267,4 +266,21 @@ Usar classes que podem ser herdadas mas que não precisam ser instanciadas são 
 
 **Link do trabalho:**
 
-1. [Python 3: Avançando na orientação a objetos](https://github.com/samuel-apls/alura-formacao-python/commit/97d19fb5ac1cd1373b28019fbe32a4abd45dd117)
+1. [Python 3: Avançando na orientação a objetos - Aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/97d19fb5ac1cd1373b28019fbe32a4abd45dd117)
+2. [Python 3: Avançando na orientação a objetos - Vertificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-orientacao-objetos/formalCertificate)
+
+### Dia 10: 07 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Introdução ao fatiamento (slicing) de String. Capítulo 01 do curso [String em Python: Extraindo informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url).
+
+**Aprendizados:** 
+
+As URLs têm basicamente duas estruturas: base da URL e parâmetros da URL.
+
+As strings são como listas, que não podem ter suas posições alteradas (imutáveis) e podem ser percorridas por posições (inciando em zero até n-1). Sendo o operador de fatiamento: ```string[indice1 : indice2]```. No ```indice1```, à esquerda, a posição é inclusiva (n+1). No ```indice2```, à direita, a posição é exclusiva (n-1).
+
+**Link do trabalho:**
+
+1. [String em Python: Extraindo informações de uma URL - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/0b28b877318093cf2d41b99e4020e94404904dd7)
