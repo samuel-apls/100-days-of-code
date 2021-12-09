@@ -267,7 +267,7 @@ Usar classes que podem ser herdadas mas que não precisam ser instanciadas são 
 **Link do trabalho:**
 
 1. [Python 3: Avançando na orientação a objetos - Aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/97d19fb5ac1cd1373b28019fbe32a4abd45dd117)
-2. [Python 3: Avançando na orientação a objetos - Vertificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-orientacao-objetos/formalCertificate)
+2. [Python 3: Avançando na orientação a objetos - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-orientacao-objetos/formalCertificate)
 
 ### Dia 10: 07 de dezembro de 2021
 
@@ -284,3 +284,22 @@ As strings são como listas, que não podem ter suas posições alteradas (imut�
 **Link do trabalho:**
 
 1. [String em Python: Extraindo informações de uma URL - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/0b28b877318093cf2d41b99e4020e94404904dd7)
+
+
+### Dia 11: 08 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Utilizando método de String. Capítulo 02 do curso [String em Python: Extraindo informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url).
+
+**Aprendizados:** 
+
+Omitir o primeiro ou o segundo argumento do operador de fatiamento para fatiar uma string do início até um certo índice, ou a partir de um índice até o final: ```str[a:]``` ou ```str[:b]```.
+
+Utilizar o método ```str.find(palavra, inicio)``` para buscar o índice de palavra a partir de inicio. Caso ```palavra``` não seja encontrada, o método ```find``` retorna -1.
+
+O método ```len(string)``` retorna o tamanho (ou seja, a quantidade de caracteres) da nossa string.
+
+**Link do trabalho:**
+
+1. [String em Python: Extraindo informações de uma URL - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/f07f0b467d06f353af513fd8b148323993e10ca0)
