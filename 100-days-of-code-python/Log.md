@@ -303,3 +303,24 @@ O método ```len(string)``` retorna o tamanho (ou seja, a quantidade de caracter
 **Link do trabalho:**
 
 1. [String em Python: Extraindo informações de uma URL - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/f07f0b467d06f353af513fd8b148323993e10ca0)
+
+
+### Dia 12: 09 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Aplicação de Orientação a Objetos no projeto. Capítulo 03 do curso [String em Python: Extraindo informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url).
+
+**Aprendizados:** 
+
+Utilizar a palavra reservada ```raise``` para lançar uma ```Excecption``` no programa, informando uma mensagem do erro.
+
+Utilizar métodos da classe ```String```: ```str.replace``` e ```str.strip```.
+
+Como transformar o projeto em classe com atributos e métodos.
+
+Lidar com comparação, utilizando o operador ```not``` com diferentes tipo de valores nulos: ```None```, ```' '```, ```0```
+
+**Link do trabalho:**
+
+1. [String em Python: Extraindo informações de uma URL - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/ab962ed2813251d6265db221287ee3a5fea7cf04)
