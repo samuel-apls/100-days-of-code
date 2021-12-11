@@ -324,3 +324,24 @@ Lidar com comparação, utilizando o operador ```not``` com diferentes tipo de v
 **Link do trabalho:**
 
 1. [String em Python: Extraindo informações de uma URL - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/ab962ed2813251d6265db221287ee3a5fea7cf04)
+
+
+### Dia 13: 10 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão da aula sobreexpressoões regulares. Capítulo 04 do curso [String em Python: Extraindo informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url).
+
+**Aprendizados:** 
+
+Construir e utilizar expressoões regulares (```RegEx```) importando o módulo ```re``` do Python.
+
+Entender o método ```search``` para o módulo ```re```: consiste em buscar um padrão dentro de uma sstring.
+
+Entender o método ```match``` para o módulo ```re```: consiste em comparar um padrão completo de uma string.
+
+Diferenciar o uso de ```parênteses``` e ```colchetes``` na elaboração de ```RegEx```: enquanto o ```colchetes``` especificar intervalo de caracteres que podem variar naquela expressão, os ```parênteses``` especifica uma string que não se altera.
+
+**Link do trabalho:**
+
+1. [String em Python: Extraindo informações de uma URL - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/3ad68ac43d9efdd4533c842180776e1baf5bd945)
