@@ -345,3 +345,26 @@ Diferenciar o uso de ```parênteses``` e ```colchetes``` na elaboração de ```R
 **Link do trabalho:**
 
 1. [String em Python: Extraindo informações de uma URL - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/3ad68ac43d9efdd4533c842180776e1baf5bd945)
+
+### Dia 14: 12 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão da aula sobre métodos especiais. Conclusão do curso. Capítulo 05 do curso [String em Python: Extraindo informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url).
+
+**Aprendizados:** 
+
+Implementar métodos especiais nas classes para criar comportamentos dustomizados (rescrita de método):
+
+~~~Python
+__len__ #tamanho
+__str__ #impressao
+__eq__ #comparação
+~~~
+
+Comparar com operador ```==``` (iguadade) e ```is``` (identidade).
+
+**Link do trabalho:**
+
+1. [String em Python: Extraindo informações de uma URL - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/e04e07cfd75b97c1f6253894784401d925de1ebc)
+2. [String em Python: Extraindo informações de uma URL - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/string-python-extraindo-informacoes-url/formalCertificate)
