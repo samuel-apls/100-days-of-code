@@ -32,7 +32,7 @@ Na aula 03 foi explanado o que é e como criar métodos (comportamento da classe
 2. [Python3 Parte 2: Avançando na linguagem - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-na-linguagem/formalCertificate)
 3. [Python3: Introdução a Orientação a objetos - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/f8236f818e96692bc2b48b93e2c37c8573b93b5a#diff-db236ecce453bc7f47859772cf2f6f1899d0c97e3231311db782ac0aecf47a2c)
 
-
+----
 ### Dia 1: 16 de novembro de 2021
 
 **Progresso do dia:** 
@@ -47,7 +47,7 @@ Na aula 04 foi demonstrado na prátrica o conceito de encapsulamento (pincípio 
 
 1. [Python3: Introdução a Orientação a objetos - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/2e8fde1f52746dbbcae666fb1d70489556ecac3e)
 
-
+----
 ### Dia 2: 17 de novembro de 2021
 
 **Progresso do dia:** 
@@ -74,7 +74,7 @@ Isso faz com que o método seja chamado sem necessáriamente apresentar os parê
 
 1. [Python3: Introdução a Orientação a objetos - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/5c1c4d56ad552cdf43fea2ce12bd952dd7e9252d)
 
-
+----
 ### Dia 3: 18 de novembro de 2021
 
 **Progresso do dia:** 
@@ -101,6 +101,7 @@ def nome_do_metodo():
 1. [Python3: Introdução a Orientação a objetos - Aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/be49d77e949c1d501f00130d52da03a38f2a6f00)
 2. [Python3: Introdução a Orientação a objetos - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-intro-orientacao-objetos/formalCertificate)
 
+----
 ### Dia 4: 19 de novembro de 2021
 
 **Progresso do dia:** 
@@ -124,6 +125,7 @@ Adicionamelmente foi apresentando como um atributo pode estar ligado à instânc
 **Link do trabalho:** 
 1. [Python 3: Avançando na orientação a objetos - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/33f4bfae8a6aef72fe936d24011a2a7262fe5287)
 
+----
 ### Dia 5: 20 de novembro de 2021
 
 **Progresso do dia:** 
@@ -168,6 +170,7 @@ def funcao():
 **Link do trabalho:** 
 1. [Python 3: Avançando na orientação a objetos - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/56cc2474fa8e2441a934dc1f034c18685a26a01c)
 
+----
 ### Dia 6: 22 de novembro de 2021
 
 **Progresso do dia:** 
@@ -198,7 +201,7 @@ repr(variavel1)
 **Link do trabalho:**
 1. [Python 3: Avançando na orientação a objetos - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/83972f3900be4453397b172e7eff74d092f4baca)
 
-
+----
 ### Dia 7: 23 de novembro de 2021
 
 **Progresso do dia:** 
@@ -211,6 +214,7 @@ Utilizar a herança do tipo ```buit-in``` (pacote nativo), sendo a vantagem prin
 **Link do trabalho:**
 1. [Python 3: Avançando na orientação a objetos - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
 
+----
 ### Dia 8: 24 de novembro de 2021
 
 **Progresso do dia:** 
@@ -245,6 +249,7 @@ print(objeto)
 **Link do trabalho:**
 1. [Python 3: Avançando na orientação a objetos - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/6f5b1ab0b2e1a6eb9691383145e934611b48ff12)
 
+----
 ### Dia 9: 25 de novembro de 2021
 
 **Progresso do dia:** 
@@ -269,6 +274,7 @@ Usar classes que podem ser herdadas mas que não precisam ser instanciadas são 
 1. [Python 3: Avançando na orientação a objetos - Aula 06](https://github.com/samuel-apls/alura-formacao-python/commit/97d19fb5ac1cd1373b28019fbe32a4abd45dd117)
 2. [Python 3: Avançando na orientação a objetos - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-3-avancando-orientacao-objetos/formalCertificate)
 
+----
 ### Dia 10: 07 de dezembro de 2021
 
 **Progresso do dia:** 
@@ -285,7 +291,7 @@ As strings são como listas, que não podem ter suas posições alteradas (imut�
 
 1. [String em Python: Extraindo informações de uma URL - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/0b28b877318093cf2d41b99e4020e94404904dd7)
 
-
+----
 ### Dia 11: 08 de dezembro de 2021
 
 **Progresso do dia:** 
@@ -304,7 +310,7 @@ O método ```len(string)``` retorna o tamanho (ou seja, a quantidade de caracter
 
 1. [String em Python: Extraindo informações de uma URL - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/f07f0b467d06f353af513fd8b148323993e10ca0)
 
-
+----
 ### Dia 12: 09 de dezembro de 2021
 
 **Progresso do dia:** 
@@ -325,7 +331,7 @@ Lidar com comparação, utilizando o operador ```not``` com diferentes tipo de v
 
 1. [String em Python: Extraindo informações de uma URL - Aula 03](https://github.com/samuel-apls/alura-formacao-python/commit/ab962ed2813251d6265db221287ee3a5fea7cf04)
 
-
+----
 ### Dia 13: 10 de dezembro de 2021
 
 **Progresso do dia:** 
@@ -346,6 +352,7 @@ Diferenciar o uso de ```parênteses``` e ```colchetes``` na elaboração de ```R
 
 1. [String em Python: Extraindo informações de uma URL - Aula 04](https://github.com/samuel-apls/alura-formacao-python/commit/3ad68ac43d9efdd4533c842180776e1baf5bd945)
 
+----
 ### Dia 14: 12 de dezembro de 2021
 
 **Progresso do dia:** 
@@ -368,3 +375,40 @@ Comparar com operador ```==``` (iguadade) e ```is``` (identidade).
 
 1. [String em Python: Extraindo informações de uma URL - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/e04e07cfd75b97c1f6253894784401d925de1ebc)
 2. [String em Python: Extraindo informações de uma URL - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/string-python-extraindo-informacoes-url/formalCertificate)
+
+----
+### Dia 15: 14 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão da aula sobre listas e operações: capítulo 01 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+
+**Aprendizados:** 
+
+Collections é uma biblioeta Python que permite armazenar dados em estruturas específicas e pacíveis de acesso/consulta/manipulação. ```Listas``` e ```tuplas``` são as mais comuns.
+
+Criação de lista (```lista = [valor1, valor2, ...]```), verificação de tipo de lista (```type(lista)```) e tamanho da lista (```len(lista)```), valor conforme posição (```lista[posicao]```), alterar valores que estão dentro da lista (```lista[posicao] = valor```), adicionar valores no final da lista (```lista.append(vslor)```), inserir valores em posição específica (```lista.insert(posicao, valor)```), percorrer a lista (```for elemento in lista```), remover elemento da lista (```lista.remove(valor)```), remover todos elementos da lista (```lista.clear()```), verificar se o elemento está dentro da lista (```elemento in lista```).
+
+Utilizar um ```list comprehension``` (sintaxe curta para criar e manipular lsitas):
+~~~Python
+[expressao for item in lista]
+#retorna a EXPRESAO
+#em cada ITEM da
+#LISTA
+~~~
+
+Fazer filtragens (utilizando ```list comprehension```):
+~~~Python
+[expressao for elemento in lista if elemento == valor]
+#executa a EXPRESSAO
+#para todo ELEMENTO na
+#LISTA SE CONDIÇÃO for satisfeita
+~~~ 
+
+Criar uma função e deixar um valor padrão (```def nome_da_funca (lista = None)```) e os problemas da mutabilidade, que permite que alterações sejam feitas sem que se saiba onde/quando/quem o fez, trazendo consequências imprevisiveis para o código.
+
+**Link do trabalho:**
+
+1. [Python Collections parte 1: Listas e tuplas - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/78e82de6a06aaa280510732b681be849b738e47a)
+
+----
