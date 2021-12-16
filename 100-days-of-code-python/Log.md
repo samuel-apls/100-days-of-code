@@ -412,3 +412,22 @@ Criar uma função e deixar um valor padrão (```def nome_da_funca (lista = None
 1. [Python Collections parte 1: Listas e tuplas - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/78e82de6a06aaa280510732b681be849b738e47a)
 
 ----
+
+### Dia 16: 15 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão da aula sobre tuplas: capítulo 02 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+
+**Aprendizados:** 
+
+#Lidar com referências. Listas são mutáveis, ou seja, pode haver elementos dentro de uma lista e ainda de tipos diferentes, onde a lista aceita receber novos elementos. Conceito de imutabilidade.
+
+Tupla é um tipo de lista na qual não permite a mutação. Nesse caso, deverá ser criada uma nova tupla para agregar um novo elemento.
+
+A diferença entre programação orientada é que, na programação funcional, trata-se de valores e funções, separando o comportamento dos dados. Já na origramação orientação objetos é evitado o comportamento "anêmico": que não tem o comportamento atrelado aos dados.
+
+**Link do trabalho:**
+
+1. [Python Collections parte 1: Listas e tuplas - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/680bb82a3d5b71d1eac8d65edb414ba6ff18c701)
+----
