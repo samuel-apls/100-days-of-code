@@ -436,7 +436,7 @@ A diferença entre programação orientada é que, na programação funcional, t
 
 **Progresso do dia:** 
 
-Início e conclusão das aulas de Polimorfismo e arrays; e igualdade: capítulos 03 e 94 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+Início e conclusão das aulas de Polimorfismo e arrays; e igualdade: capítulos 03 e 04 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
 
 **Aprendizados:** 
 
@@ -456,8 +456,6 @@ Forçar a implementação de um método abstrato na instanciação da classe, pa
 ~~~Python
 from abc import ABCmeta, abstraticmethod
 
-O método especial ```__eq__``` é importante para implementação de comparação quando se deseja realizar comparações específicas, não somente comparações baseadas em referências utilizando o operador ```==```
-
 class NomeClasse(metaclass=ABCmeta)
     
     @abstraticmethod
@@ -465,5 +463,29 @@ class NomeClasse(metaclass=ABCmeta)
         pass
 ~~~
 
+O método especial ```__eq__``` é importante para implementação de comparação quando se deseja realizar comparações específicas, não somente comparações baseadas em referências utilizando o operador ```==```
+
 1. [Python Collections parte 1: Listas e tuplas - Aula 03 e 04](https://github.com/samuel-apls/alura-formacao-python/commit/73ea9296e655dbb015aed049463cbd1b67c54c9a)
 ----
+
+### Dia 18: 17 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão das aulas de métodos built-in de ordenação: capítulos 05 e 06 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+
+**Aprendizados:** 
+
+Percorrer lista e gerar tuplas associando seus pindices (posições) com seus respectivos valres. Utilizar método específico para essa finalidade ```list(enumerate(lista))``` ou apenas ```enumerate(lista)``` quando aplicada em um ```for```.
+
+Desempacotar tuplas utilizando recurso de especidicar as posições da tupla:
+~~~Python
+for valor1, valor2, ... in enumerate(lista):
+    instrucao...
+~~~
+
+Ordenar lista com método ```sorted(lista)``` utilizando parâmetro ```reverse``` (```sorted(lista, reverse=True)```) para inversão de ordem. 
+
+Ordenar a lista na referência do objeto utilzando ```lista.sort()```. Retorna ```None```.
+
+1. [Python Collections parte 1: Listas e tuplas - Aula 05 e 06](https://github.com/samuel-apls/alura-formacao-python/commit/c52e3f3f8387bb8d7b25938c8ed375a84da41361)
