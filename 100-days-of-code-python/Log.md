@@ -421,7 +421,7 @@ Início e conclusão da aula sobre tuplas: capítulo 02 do curso [Python Collect
 
 **Aprendizados:** 
 
-#Lidar com referências. Listas são mutáveis, ou seja, pode haver elementos dentro de uma lista e ainda de tipos diferentes, onde a lista aceita receber novos elementos. Conceito de imutabilidade.
+Lidar com referências. Listas são mutáveis, ou seja, pode haver elementos dentro de uma lista e ainda de tipos diferentes, onde a lista aceita receber novos elementos. Conceito de imutabilidade.
 
 Tupla é um tipo de lista na qual não permite a mutação. Nesse caso, deverá ser criada uma nova tupla para agregar um novo elemento.
 
@@ -430,4 +430,40 @@ A diferença entre programação orientada é que, na programação funcional, t
 **Link do trabalho:**
 
 1. [Python Collections parte 1: Listas e tuplas - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/680bb82a3d5b71d1eac8d65edb414ba6ff18c701)
+----
+
+### Dia 17: 16 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão das aulas de Polimorfismo e arrays; e igualdade: capítulos 03 e 94 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+
+**Aprendizados:** 
+
+Aplicar os conceito de herança e polimorfismo utilizando listas: atributos privados, classes herdando da classe-mãe, métodos sobrescritos (polimorfismo) de acordo com as especificações de suas classes com base na classe-mãe.
+
+Entender o que o ```duck typing```: se o meu método (que foi rescrito na minha classe), que ele execute o que está na minha classe!
+
+Fazer um array no Python, que exige que seja trabalhado com um tipo definido:
+
+~~~Python
+import array as arr
+arr.array('d',[])
+#Onde 'd' é o tipo do array, que não recebe outros tipos
+~~~
+
+Forçar a implementação de um método abstrato na instanciação da classe, parametrizando a classe-mãe com:
+~~~Python
+from abc import ABCmeta, abstraticmethod
+
+O método especial ```__eq__``` é importante para implementação de comparação quando se deseja realizar comparações específicas, não somente comparações baseadas em referências utilizando o operador ```==```
+
+class NomeClasse(metaclass=ABCmeta)
+    
+    @abstraticmethod
+    def nome_metodo(self):
+        pass
+~~~
+
+1. [Python Collections parte 1: Listas e tuplas - Aula 03 e 04](https://github.com/samuel-apls/alura-formacao-python/commit/73ea9296e655dbb015aed049463cbd1b67c54c9a)
 ----
