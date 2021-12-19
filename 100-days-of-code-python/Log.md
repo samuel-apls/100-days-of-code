@@ -489,3 +489,52 @@ Ordenar lista com método ```sorted(lista)``` utilizando parâmetro ```reverse``
 Ordenar a lista na referência do objeto utilzando ```lista.sort()```. Retorna ```None```.
 
 1. [Python Collections parte 1: Listas e tuplas - Aula 05 e 06](https://github.com/samuel-apls/alura-formacao-python/commit/c52e3f3f8387bb8d7b25938c8ed375a84da41361)
+----
+
+### Dia 19: 19 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão das aulas de ordenação customizada e ordenação total; e conclusão do curso. Capítulos 07 e 08 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+
+**Aprendizados:** 
+
+Entender como o Python trata a ordema natural nas comparações (valores e strings), utilizanddo funções dentro do método ```sorted```:
+
+a) Implementação por méio de função:
+~~~Python
+def metodo_de_comparacao(self, valor)
+    return ...
+
+for elemento in sorted(lista, metodo_de_comparacao(valor)):
+    return ...
+~~~
+
+b) Implementação por meio de atributo importado, podendo ser utilizado mais de um em caso de necessidade de utilizar níveis de comparação:
+~~~Python
+from operator import attrgetter
+
+for elemento in sorted(lista, key=attrgetter('_atributo1, _atributo2, ...')):
+    return ...
+~~~
+
+Implementar um ```magic method``` ```__lt__``` (less than) para comparações mais customizadas:
+
+~~~Python
+def __lt__(self, outro):
+    return ...
+~~~
+
+Utilizar o ```total_ordering``` com o objetivo de obter comparações excepcionais como ```<=```ou ```>=```, sendo que a implementeção do ```__eq__``` e ```__lt__``` é um requisito na classe. Nesse sentido a ```anotação``` do método ```@total_ordering``` é suficiente para a compração acontecer implicitamento (caso contrário, retornaria um erro):
+
+~~~Python
+from functools import total_ordering
+
+@total_ordering
+class NomeDaClasse:
+    pass
+~~~
+
+1. [Python Collections parte 1: Listas e tuplas - Aula 07 e 08](https://github.com/samuel-apls/alura-formacao-python/commit/bf12dc5c6c333714539b3fb41381470e029d252d)
+2. [Python Collections parte 1: Listas e tuplas - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-collections-listas-e-tuplas/formalCertificate)
+----
