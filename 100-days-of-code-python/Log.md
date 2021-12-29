@@ -538,3 +538,56 @@ class NomeDaClasse:
 1. [Python Collections parte 1: Listas e tuplas - Aula 07 e 08](https://github.com/samuel-apls/alura-formacao-python/commit/bf12dc5c6c333714539b3fb41381470e029d252d)
 2. [Python Collections parte 1: Listas e tuplas - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-collections-listas-e-tuplas/formalCertificate)
 ----
+
+### Dia 20: 27 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão das aulas de Conjuntos e Operações com Conjuntos. Capítulos 01 e 02 do curso [Python Collections parte 2: Conjuntos e Dicionários](https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios).
+
+**Aprendizados:** 
+
+Criar conjuntos diretamente ```set(lista)``` e transformando uma ```lista```, na qual se transformará em uma sequência mutável que não permite elementos repetidos (nem mesmo do tipo ```string```):
+
+~~~Python
+lista =[]
+conjunto = {}
+conjunto = lista.copy()
+
+conjunto = set(lista)
+~~~
+
+Operações com conjuntos (necessitam ser do tipo ```set``` para realizar as operações em conjuntos):
+
+União exclusiva ```|```
+~~~Python
+conjunto3 = conjunto1 | conjunto2
+~~~
+
+União exclusiva (mantém dados iguais) ```&```
+~~~Python
+conjunto3 = conjunto1 & conjunto2
+~~~
+
+União exclusiva (remove dados repetidos) ```-```
+~~~Python
+conjunto3 = conjunto1 - conjunto2
+~~~
+
+Intersecção (remover dados repetidos em ambos conjuntos) ```^```
+~~~Python
+conjunto3 = conjunto1 ^ conjunto2
+~~~
+
+Adicionar elementos ao conjunto, que possui natureza mutável
+~~~Python
+conjunto4 = conjunto3.add(valor)
+~~~
+
+Congelar conjunto (impedir inclusão remoção da elementos)
+~~~Python
+conjunto4 = frozenset(conjunto4)
+~~~
+
+1. [Python Collections parte 2: Conjuntos e Dicionários - Aulas 01 e 02](https://github.com/samuel-apls/alura-formacao-python/commit/9fd4ca133972f8492b6b4e8387bb0807e7f20a36)
+----
