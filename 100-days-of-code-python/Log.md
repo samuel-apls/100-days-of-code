@@ -381,7 +381,7 @@ Comparar com operador ```==``` (iguadade) e ```is``` (identidade).
 
 **Progresso do dia:** 
 
-Início e conclusão da aula sobre listas e operações: capítulo 01 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+Início e conclusão da aula sobre listas e operações: capítulo 01 do curso [Python Collections Parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
 
 **Aprendizados:** 
 
@@ -409,7 +409,7 @@ Criar uma função e deixar um valor padrão (```def nome_da_funca (lista = None
 
 **Link do trabalho:**
 
-1. [Python Collections parte 1: Listas e tuplas - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/78e82de6a06aaa280510732b681be849b738e47a)
+1. [Python Collections Parte 1: Listas e tuplas - Aula 01](https://github.com/samuel-apls/alura-formacao-python/commit/78e82de6a06aaa280510732b681be849b738e47a)
 
 ----
 
@@ -417,7 +417,7 @@ Criar uma função e deixar um valor padrão (```def nome_da_funca (lista = None
 
 **Progresso do dia:** 
 
-Início e conclusão da aula sobre tuplas: capítulo 02 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+Início e conclusão da aula sobre tuplas: capítulo 02 do curso [Python Collections Parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
 
 **Aprendizados:** 
 
@@ -429,14 +429,14 @@ A diferença entre programação orientada é que, na programação funcional, t
 
 **Link do trabalho:**
 
-1. [Python Collections parte 1: Listas e tuplas - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/680bb82a3d5b71d1eac8d65edb414ba6ff18c701)
+1. [Python Collections Parte 1: Listas e tuplas - Aula 02](https://github.com/samuel-apls/alura-formacao-python/commit/680bb82a3d5b71d1eac8d65edb414ba6ff18c701)
 ----
 
 ### Dia 17: 16 de dezembro de 2021
 
 **Progresso do dia:** 
 
-Início e conclusão das aulas de Polimorfismo e arrays; e igualdade: capítulos 03 e 04 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+Início e conclusão das aulas de Polimorfismo e arrays; e igualdade: capítulos 03 e 04 do curso [Python Collections Parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
 
 **Aprendizados:** 
 
@@ -465,14 +465,14 @@ class NomeClasse(metaclass=ABCmeta)
 
 O método especial ```__eq__``` é importante para implementação de comparação quando se deseja realizar comparações específicas, não somente comparações baseadas em referências utilizando o operador ```==```
 
-1. [Python Collections parte 1: Listas e tuplas - Aula 03 e 04](https://github.com/samuel-apls/alura-formacao-python/commit/73ea9296e655dbb015aed049463cbd1b67c54c9a)
+1. [Python Collections Parte 1: Listas e tuplas - Aula 03 e 04](https://github.com/samuel-apls/alura-formacao-python/commit/73ea9296e655dbb015aed049463cbd1b67c54c9a)
 ----
 
 ### Dia 18: 17 de dezembro de 2021
 
 **Progresso do dia:** 
 
-Início e conclusão das aulas de métodos built-in de ordenação: capítulos 05 e 06 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+Início e conclusão das aulas de métodos built-in de ordenação: capítulos 05 e 06 do curso [Python Collections Parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
 
 **Aprendizados:** 
 
@@ -488,14 +488,14 @@ Ordenar lista com método ```sorted(lista)``` utilizando parâmetro ```reverse``
 
 Ordenar a lista na referência do objeto utilzando ```lista.sort()```. Retorna ```None```.
 
-1. [Python Collections parte 1: Listas e tuplas - Aula 05 e 06](https://github.com/samuel-apls/alura-formacao-python/commit/c52e3f3f8387bb8d7b25938c8ed375a84da41361)
+1. [Python Collections Parte 1: Listas e tuplas - Aula 05 e 06](https://github.com/samuel-apls/alura-formacao-python/commit/c52e3f3f8387bb8d7b25938c8ed375a84da41361)
 ----
 
 ### Dia 19: 19 de dezembro de 2021
 
 **Progresso do dia:** 
 
-Início e conclusão das aulas de ordenação customizada e ordenação total; e conclusão do curso. Capítulos 07 e 08 do curso [Python Collections parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
+Início e conclusão das aulas de ordenação customizada e ordenação total; e conclusão do curso. Capítulos 07 e 08 do curso [Python Collections Parte 1: Listas e tuplas](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas).
 
 **Aprendizados:** 
 
@@ -535,15 +535,15 @@ class NomeDaClasse:
     pass
 ~~~
 
-1. [Python Collections parte 1: Listas e tuplas - Aula 07 e 08](https://github.com/samuel-apls/alura-formacao-python/commit/bf12dc5c6c333714539b3fb41381470e029d252d)
-2. [Python Collections parte 1: Listas e tuplas - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-collections-listas-e-tuplas/formalCertificate)
+1. [Python Collections Parte 1: Listas e tuplas - Aula 07 e 08](https://github.com/samuel-apls/alura-formacao-python/commit/bf12dc5c6c333714539b3fb41381470e029d252d)
+2. [Python Collections Parte 1: Listas e tuplas - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-collections-listas-e-tuplas/formalCertificate)
 ----
 
-### Dia 20: 27 de dezembro de 2021
+### Dia 20: 28 de dezembro de 2021
 
 **Progresso do dia:** 
 
-Início e conclusão das aulas de Conjuntos e Operações com Conjuntos. Capítulos 01 e 02 do curso [Python Collections parte 2: Conjuntos e Dicionários](https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios).
+Início e conclusão das aulas de Conjuntos e Operações com Conjuntos. Capítulos 01 e 02 do curso [Python Collections Parte 2: Conjuntos e Dicionários](https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios).
 
 **Aprendizados:** 
 
@@ -589,5 +589,49 @@ Congelar conjunto (impedir inclusão remoção da elementos)
 conjunto4 = frozenset(conjunto4)
 ~~~
 
-1. [Python Collections parte 2: Conjuntos e Dicionários - Aulas 01 e 02](https://github.com/samuel-apls/alura-formacao-python/commit/9fd4ca133972f8492b6b4e8387bb0807e7f20a36)
+1. [Python Collections Parte 2: Conjuntos e Dicionários - Aulas 01 e 02](https://github.com/samuel-apls/alura-formacao-python/commit/9fd4ca133972f8492b6b4e8387bb0807e7f20a36)
+----
+
+### Dia 21: 29 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão das aulas de Dicionários e Variações de Dicionários. Capítulos 03 e 04 do curso [Python Collections Parte 2: Conjuntos e Dicionários](https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios).
+
+**Aprendizados:** 
+
+Entender a diferença entre dicionário (```dict```), listas e conjuntos, assim como a aplicabilidade dos conceitos de chave e valor que compõe o dicionário
+
+Criar dicionários pelo uso de chaves ```{}```ou ```dict```.
+~~~Python
+#Criando um dicionário diretamente pelo uso de chaves
+dicionario = {'chave1': valor1, 'chave2': valor2, ...}
+
+#Criando um dicionario com o uso do dict,
+dicionario1 = dict(chave1 = valor1, chave2 = valor2, ...)
+
+dicionario2 = dict([('chave1', valor1), ('chave2', valor2), ...])
+~~~
+
+Verificar e manipular elementos dos dicionários:
+
+a) Adicionando elemento por método ```dicionario.get('chave1')``` ou diretamente pela chave ```dicionario['chave1'] = valor```
+
+b) Removendo elemento do dicionario: ```del dicionario['chave1']```
+
+Mostrar elementos dentro do dicionário iterando sobre o dicionario e/ou utilizando métodos como ```keys()``` para pegar as chaves, ```values()``` para pegar os valores e ```items()``` para linha (chave e valor correspondente)
+
+Contar elementos dento de um dicionário:
+~~~Python
+from typing import Counter
+dicionario = Counter(texto.split())
+~~~
+
+Atribuir valores padrão em um dicionário:
+~~~Python
+from collections import defaultdict
+dicionario = defaultdict(int)
+~~~
+
+1. [Python Collections Parte 2: Conjuntos e Dicionários - Aulas 03 e 04](https://github.com/samuel-apls/alura-formacao-python/commit/e8e38973fcaa1ced5e92a724eacd8a81c4cb5da4)
 ----
