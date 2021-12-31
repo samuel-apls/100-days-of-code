@@ -635,3 +635,25 @@ dicionario = defaultdict(int)
 
 1. [Python Collections Parte 2: Conjuntos e Dicionários - Aulas 03 e 04](https://github.com/samuel-apls/alura-formacao-python/commit/e8e38973fcaa1ced5e92a724eacd8a81c4cb5da4)
 ----
+
+### Dia 22: 30 de dezembro de 2021
+
+**Progresso do dia:** 
+
+Início e conclusão da aula de Praticando Dicionários, capítulos 05; e conclusão do curso [Python Collections Parte 2: Conjuntos e Dicionários](https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios).
+
+**Aprendizados:** 
+
+Realizar uam análise de um texto, aplicando o conhecimento de dicionário e seus métodos, para obter uma visão de quantidade de palavras e como é a frequência de palavras no texto. Para alcançar o resultdo foram percorridasd as seguintes etapas:
+
+* Criado um dicionário que calcula a frequência de palavras em minúsculo e separadas por espaços
+
+* Criada uma lista de tuplas com cada palavra identificada com a sua frequência
+
+* Lista de tupl`a transformada em dicionário
+
+* Método do ``` Counter``` utilizado para obter as 10 maiores ocorrências (```dicionario.most_commom(10))```
+
+1. [Python Collections Parte 2: Conjuntos e Dicionários - Aula 05](https://github.com/samuel-apls/alura-formacao-python/commit/78ae902bea96ee22dbeac5c43b97fb91bfa1cfd9)
+2. [Python Collections Parte 2: Conjuntos e Dicionários - Certificado](https://cursos.alura.com.br/user/samuel-apls/course/python-collections-conjuntos-e-dicionarios/formalCertificate)
+----
